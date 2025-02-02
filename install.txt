@@ -1,0 +1,11 @@
+# Instalar o package json
+npm init -y
+
+# Instalar nodemon
+npm i nodemon
+
+#Instalar de maneira global
+npm i -g nodemon
+
+#Comando para rodar o nodemon
+npm run nodemon {nome do script que eu der}

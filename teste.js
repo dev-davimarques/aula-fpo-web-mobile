@@ -1,0 +1,1 @@
+console.log('Teste auto restart')
