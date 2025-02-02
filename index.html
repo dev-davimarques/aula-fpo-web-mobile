@@ -1,33 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cálculo de Equação do 2º Grau</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>Cálculo das raízes - Equação do 2º grau</h1>
-        
-        <div class="container-chield">
-            <label for="a">Valor de A:</label>
-            <input type="number" id="a" name="a" required>
+    <header>
+        <h2>Cálculo de Equação do 2º Grau</h2>
+    </header>
 
-            <label for="b">Valor de B</label>
-            <input type="number" id="b" name="b" required>
+    <section>
+        <form action="">
+            <img src="assets/equation.jpeg" alt="Equação do segundo grau">
+            
+            <div class="campos">
+                <input type="number" name="num1" id="num1" placeholder="coeficiente 1">
+            </div>
 
-            <label for="c">Valor de C</label>
-            <input type="number" id="c" name="c" required>
-        </div>
+            <div class="campos">
+                <input type="number" name="num2" id="num2" placeholder="coeficiente 2">
+            </div>
+            <div class="campos">
+                <input type="number" name="num3" id="num3" placeholder="coeficiente 3">
+            </div>
 
-        <div class="button-group">
-            <button type="submit">Calcular</button>
-            <button type="reset">Limpar</button>
-        </div>
+            <div class="buttons">
+                <button id="calcular">Calcular</button>
+                <button id="limpar">Limpar</button>
+            </div>
+            <div id="resultado">Resultado</div>
+        </form>
+    </section>
 
-        <div id="result" class="result"></div>
-    </div>
+    <script src="script.js"></script>
 </body>
 </html>
