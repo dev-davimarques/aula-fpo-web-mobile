@@ -23,7 +23,7 @@ function calculo(e){
         let raiz1 = ((-num2 + Math.sqrt(delta)) / (2*num1));
         let raiz2 = ((-num2 - Math.sqrt(delta)) / (2*num1));
         document.getElementById('resultado').innerHTML = 
-        'Raiz 1 = ' + raiz1 + 'Raiz 2 = ' + raiz2;
+        'Raiz 1 = ' + raiz1 + ' Raiz 2 = ' + raiz2;
 
     } else if (delta === 0){
         let raizUnica = ((-num2 + Math.sqrt(delta)) / (2*num1));
