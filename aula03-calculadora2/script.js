@@ -15,7 +15,8 @@ function back(){
 function result(){
     const display = document.querySelector('#display')
     try {
-        display.value = eval(display.value)
+        display.value = eval(display.value).toFixed(2)
+        // display.value = eval(display.value).toFixed(2)
     } catch {
         display.value = 'Error'
     }
