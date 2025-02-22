@@ -1,0 +1,15 @@
+1º passo, verificar se o node/npm está instalado:
+- node -v
+- npm -v
+
+2º passo, ferramenta de construção para web:
+- pt.vite.dev/guide/
+
+3º passo, instalar
+- npm create vite@latest
+
+4º passo, instalar dependências, dentro de nome_da_pasta
+- npm i / npm install
+
+5º passo, executar a aplicação (fica dentro de package.json)
+- npm run dev
