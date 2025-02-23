@@ -1,3 +1,4 @@
+import List from "./components/list/list"
 import Title from "./components/title/title"
 
 function App() {
@@ -5,12 +6,7 @@ function App() {
     <>
       <h1>Lista de Compras</h1>
       <Title />
-
-      <ul>
-        <li>Laranja</li>
-        <li>Mamão</li>
-        <li>Maçã</li>
-      </ul>
+      <List/>
     </>
   )
 }
