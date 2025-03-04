@@ -1,11 +1,9 @@
-function Title(){
+function Title(props){
     return(
-        <div>
-            <label>Produtos</label>
-            <br />
-            <input type="text" />
-        </div>
+        <>
+            <h1>Lista de {props.name}</h1>
+        </>
     )
 }
 
-export default Title
+export default Title;
