@@ -16,7 +16,7 @@ function List(){
             <label>Produtos</label>
             <br/>
             <input type="text" value={produto} onChange={(e) => setProduto(e.target.value)}/>
-            <button typeof="button" onClick={adicionarProduto}>Adicionar</button>
+            <button type="button" onClick={adicionarProduto}>Adicionar</button>
             <ul>
                 {listaProdutos.map((item, index) => (
                     <li key={index}>{item}</li>
