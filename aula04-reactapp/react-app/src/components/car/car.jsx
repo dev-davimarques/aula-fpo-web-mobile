@@ -9,9 +9,16 @@ function Car(){
         color: "red"
     });
 
-    const updateColor = () => {
+    const updateColorToBlue = () => {
         setCar(previousState => {
             return {...previousState, color: "blue"}
+        });
+    }
+
+    // Em previousState eu posso colocar o nome que eu quiser
+    const updateColorToRed = () => {
+        setCar(previousState => {
+            return {...previousState, color: "red"}
         });
     }
 
@@ -21,7 +28,8 @@ function Car(){
             <p>
                 It is a {car.color} {car.model} from {car.year}
             </p>
-            <button type="button" onClick={updateColor}>Blue</button>
+            <button type="button" onClick={updateColorToBlue}>Blue</button>
+            <button type="button" onClick={updateColorToRed}>Red</button>
         </>
     );  
 }

@@ -1,3 +1,4 @@
+import ArrayMap from "./components/arrayMap/arrayMap"
 import Car from "./components/car/car"
 import FavoriteColor from "./components/favoriteColor/favoriteColor"
 import List from "./components/list/list"
@@ -10,6 +11,7 @@ function App() {
       <List/>
       <FavoriteColor/>
       <Car/>
+      <ArrayMap/>
     </>
   )
 }
