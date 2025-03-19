@@ -29,9 +29,7 @@ export default function Lista(){
 
             {/* lista que ira aparecer dinamicamente na tela */}
             <ul>
-                {listaProdutos.map((item, index) => (
-                    <li key={index}>{item}</li>
-                ))}
+                {listaProdutos.map((item, index) => (<li key={index}>{item}</li>))}
             </ul>
         </>
     );
