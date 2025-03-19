@@ -5,6 +5,7 @@ import Contador from "./components/contador/contador"
 import Counter from "./components/counter/counter"
 import FavoriteColor from "./components/favoriteColor/favoriteColor"
 import List from "./components/list/list"
+import Lista from "./components/lista/lista"
 import Title from "./components/title/title"
 import Welcome from "./components/welcome/welcome"
 
@@ -12,7 +13,8 @@ function App() {
   return(
     <>
       <Title name="Compras"/>
-      <List/>
+      {/* <List/> */}
+      <Lista />
       <FavoriteColor/>
       <Car/>
       <ArrayMap/>
